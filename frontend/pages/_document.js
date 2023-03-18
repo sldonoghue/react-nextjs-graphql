@@ -1,14 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
-  // static async getInitialProps(ctx) {
-  //   const initialProps = await Document.getInitialProps(ctx)
-  //   return { ...initialProps }
-  // }
+  // This is a Next.js lifecycle method that runs before the page is rendered
+  static async getInitialProps(ctx) {
+    
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
+  }
 
   render() {
     return (
-      <Html>
+      <Html lang='en'>
         <Head />
         <body>
           <Main />
