@@ -1,0 +1,19 @@
+{
+  "name": "react-nextjs-graphql",
+  "version": "1.0.0",
+  "description": "Mock Web Store - Using GraphQL API with Node.js on the backend and React and Apollo on the front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sldonoghue/react-nextjs-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sldonoghue/react-nextjs-graphql/issues"
+  },
+  "homepage": "https://github.com/sldonoghue/react-nextjs-graphql#readme"
+}
